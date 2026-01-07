@@ -1,20 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabetical 2025 — Index</title>
+
+    <style>
+        /* default body text setting */
+        body {
+            padding: 40px;
+            font-family: "Courier New";
+            background: #fff;
+            color: #111;
+        }
+
+        /* Heading title setting: "flex" means text goes into same line; align base; gap 12px; */
+        .title {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+        }
+
+        /* Big for "alphabetical" */
+        .title .big {
+            font-size: 44px;
+            letter-spacing: 1px;
+        }
+
+        /* Small for "2025" */
+        .title .small {
+            font-family: "Courier New";
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+
+        /* Main 2-column layout */
+        .grid {
+            display: grid;
+            grid-template-columns: 42% 58%;
+            gap: 100px;
+            align-items: start;
+        }
+
+        /* LEFT column: */
+        .left p {
+            margin: 0 0 10px 0;
+            line-height: 1.35;
+            font-size: 13px;
+            /* default text */
+        }
+
+        /* ABOUT */
+        .label {
+            font-family: Verdana;
+            font-size: 11px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            margin: 18px 0 6px 0;
+            opacity: 0.9;
+        }
+
+        /* Line*/
+        .division-line {
+            border-top: 1px solid #111;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        /* RIGHT*/
+        .right .bigEntry {
+            margin: 0 0 18px 0;
+        }
+
+        .bigEntry .sizeTag {
+            font-size: 11px;
+            opacity: 0.75;
+            margin-bottom: 4px;
+        }
+
+        .bigEntry .word {
+            font-family: Verdana;
+            font-weight: 700;
+            line-height: 0.95;
+            margin: 0;
+        }
+
+        .bigEntry .para {
+            font-family: "Courier New";
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.35;
+            margin: 18px 50px 0px 0;
+        }
+
+        /* Link*/
+        a {
+            color: #111;
+            text-decoration: none;
+            border-bottom: 1px solid #111;
+        }
+
+        a:hover {
+            opacity: 0.75;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    <p><i><u>This</u></i> is my <b>bio</b></p>
-    <a target="_blank" href="https://jiayingli.cargo.site">Portfolio</a>
-    <img width="200px"src="images/cat.jpg">
-    <ul>
-        <li>home</li>
-        <li>or</li>
-        <li>cap</li>
-    </ul>
-    <!--this is a comment-->
+
+    <span><div class="small">Jiaying's</div></span>
+    <div class="title">
+        <div class="big">Alphabetical</div>
+        <div class="small">2025</div>
+    </div>
+
+
+    <div class="grid">
+        <!-- LEFT COLUMN -->
+        <div class="left">
+
+            <div class="label">About and Me</div>
+            <div class="division-line">
+            <p>
+                2025 has felt like a year of transition. As I think about graduation and what comes
+                after, I’ve been paying closer attention to my thoughts, emotions, and working process. This website is
+                a quiet record of that time, collecting moments of uncertainty, focus, rest, and change—organized
+                alphabetically rather than chronologically, as a way to notice how the year actually felt.
+            </p>
+        </div>
+
+            
+
+            <div class="label">Notes / Definitions</div>
+
+            <div class="division-line">
+                <p><b><a href="https://en.wikipedia.org/wiki/Anxiety" target="_blank" rel="noopener">A — Anxiety</b></a>
+                </p>
+                <p>A recurring state of alertness, tension, and overthinking. Quiet, then sudden.</p>
+
+                <p><b><a href="https://en.wikipedia.org/wiki/Bold" target="_blank" rel="noopener">B — Bold</b></a>
+                </p>
+                <p>Moving anyway. Not fearless—just willing.</p>
+            </div>
+
+            
+                <p><b><a href="https://en.wikipedia.org/wiki/Crying" target="_blank" rel="noopener">C — Cry</b></a>
+                </p>
+                <p>A release when language arrives too late.</p>
+
+                <p><b><a href="https://en.wikipedia.org/wiki/Daydreaming" target="_blank" rel="noopener">D — Daydream</b></a>
+                </p>
+                <p>A soft drift into imagined or remembered spaces.</p>
+           
+
+            
+                <p><b><a href="https://en.wikipedia.org/wiki/Edge_(geometry)" target="_blank" rel="noopener">E — Edge</b></a>
+                </p>
+                <p>The point between stability and collapse. Heightened awareness.</p>
+
+                <p><b><a href="https://en.wikipedia.org/wiki/Fuzzy_concept" target="_blank" rel="noopener">F — Fuzzy</b></a>
+                </p>
+                <p>Blurred boundaries—thoughts without sharp outlines.</p>
+
+
+       
+
+            
+            <div class="division-line">
+
+                <img src="images/1.jpeg" width="110px"  height="70">
+                <img src="images/2.jpeg" width="110px"  height="70">
+                <img src="images/3.jpeg" width="110px"  height="70">
+                <img src="images/4.jpeg" width="110px"  height="70">
+                <img src="images/5.jpeg" width="110px"  height="70">
+                <img src="images/6.jpeg" width="110px"  height="70">
+                <img src="images/7.jpeg" width="110px"  height="70">
+                <img src="images/8.jpeg" width="110px"  height="70">
+                <img src="images/9.jpeg" width="110px"  height="70">
+                <img src="images/10.jpeg" width="110px"  height="70">
+        </div>
+        </div>
+
+        <!-- RIGHT COLUMN (big specimen words) -->
+        <div class="right">
+            <div class="bigEntry">
+                <div class="sizeTag">1.</div>
+                <p class="word">Anxiety</p>
+                <p class="para">Thoughts about graduation, my portfolio, and what comes after school appeared more
+                    frequently, sometimes without clear reasons. I remembered there were many 2 a.m. nights when I
+                    stared at social media, looking at other people’s lives. What kind of life will I be living in
+                    five years?
+                </p>
+            </div>
+
+            <div class="bigEntry">
+                <div class="sizeTag">2.</div>
+                <p class="word">Bold</p>
+                <p class="para">It showed up in small decisions—continuing to work despite doubt, sharing ideas
+                    before they felt fully formed, and choosing to move forward without clear answers. Being bold
+                    often meant acting first and understanding later.
+                </p>
+            </div>
+
+            <div class="bigEntry">
+                <div class="sizeTag">3.</div>
+                <p class="word">Cry</p>
+                <p class="para">I learned not to cry too much this year, though I’m not sure whether that means I
+                    became stronger or simply more practiced at holding things in.
+                </p>
+            </div>
+
+            <div class="bigEntry">
+                <div class="sizeTag">4.</div>
+                <p class="word">Daydream</p>
+                <p class="para">I spent more time sleeping during the day, so it was, quite literally, daydreaming.
+                    During the final weeks, I stayed up very late at night. The quiet helped me focus, but at the
+                    same time, I hated how empty it felt when it settled around me.
+                </p>
+            </div>
+
+            <div class="bigEntry">
+                <div class="sizeTag">5.</div>
+                <p class="word">Edge</p>
+                <p class="para">I spent more time focusing on exploring different “edges” in my work. That
+                    in-between state feels alive to me—unstable, unfinished, and full of possibility. I love
+                    watching forms shift, stretch, and transform as they
+                    move across that boundary, as if they are still deciding what they want to become.
+                </p>
+            </div>
+
+            <div class="bigEntry">
+                <div class="sizeTag">6.</div>
+                <p class="word">Fuzzy</p>
+                <p class="para">Many things felt fuzzy this year. Plans overlapped, emotions blurred, and directions
+                    were rarely clear. I often felt like I was moving without a sharp outline of where I was headed.
+                    I began to sit with the blur, letting uncertainty exist without
+                    immediately resolving it.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
